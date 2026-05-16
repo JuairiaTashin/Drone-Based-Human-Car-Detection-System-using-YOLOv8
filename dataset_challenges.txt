@@ -1,0 +1,23 @@
+
+DATASET CHALLENGES IDENTIFIED:
+
+1. EXTREMELY SMALL OBJECTS:
+   - Average pedestrian size: ~20x40 pixels
+   - Some humans < 10 pixels (very hard to detect)
+   
+2. CLASS IMBALANCE:
+   - Ignored class (0): 1,238,573 (majority)
+   - Bicycle (3): 302,269 (most common actual object)
+   - Pedestrian (1): 11,686 (target class, rare)
+   - Car (4): 3,637 (target class, rarest)
+   
+3. CROWDED SCENES:
+   - Some images have 100+ people
+   - Heavy occlusion common
+   
+4. AERIAL PERSPECTIVE:
+   - High altitude shots
+   - Low resolution humans
+   
+5. SCALE VARIATION:
+   - Objects range from 2px to 2000px
